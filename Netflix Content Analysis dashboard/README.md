@@ -44,7 +44,8 @@ This project uses the Netflix Titles dataset containing information about movies
 
 ## Dashboard
 
-![Netflix Dashboard](netflix%20screenshot.png)
+
+![Netflix Dashboard](netflix-dashboard.png)
 
 ## Key Insights
 - Netflix has significantly increased its content library over time.

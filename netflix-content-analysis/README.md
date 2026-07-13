@@ -1,4 +1,3 @@
-</> Markdown
 # Netflix Content Analysis Dashboard
 
 ## Project Overview

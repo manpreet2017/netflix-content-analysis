@@ -121,7 +121,6 @@ netflix-content-analysis/
 ├── README.md
 ├── netflix-dashboard.png
 ├── netflix_titles.csv
-└── Netflix Content Analysis Dashboard.twbx
 ```
 
 ---

@@ -1,100 +1,139 @@
-## Netflix Content Analysis Dashboard
-# Project Overvie
-This project analyzes the Netflix Titles dataset to understand the content available on Netflix. The analysis looks at movies, TV shows, genres, ratings, release years, and countries. The data was cleaned and analyzed using Python, and the dashboard was created in Tableau.
+# Netflix Content Analysis Dashboard
 
-# Dashboard Preview
-Netflix Dashboard![Netflix Dashboard](netflix-dashboard.png)
+## Project Overview
 
-# Project Objective
-The goal of this project is to find useful insights from Netflix's content library. This dashboard helps users understand how Netflix content has changed over the years and what types of content are most common.
+This project analyzes the Netflix Titles dataset to uncover trends in Netflix's content library. Using **Python** for data cleaning and exploratory data analysis (EDA) and **Tableau** for visualization, the project provides insights into content distribution, release trends, genres, ratings, and countries producing the most Netflix titles.
 
-# Business Questions
-How has Netflix content changed over the years?
-What is the difference between Movies and TV Shows?
-Which countries have the most Netflix content?
-What are the most common genres?
-How has content production changed over time?
-What are the most common content ratings?
-# Dataset Description
-This project uses the Netflix Titles dataset. The dataset includes information about movies and TV shows available on Netflix.
+---
 
-# The dataset contains:
+## Dashboard Preview
 
-# Title
-Type (Movie or TV Show)
-Country
-Release Year
-Rating
-Genre
-Duration
-Tools Used
-Python
-Pandas
-NumPy
-Tableau
-Data Cleaning
-Data Visualization
-Analysis Steps
-Loaded the dataset into Python.
-Checked the data for missing values and duplicates.
-Cleaned the data.
-Explored the data using Python.
-Created charts and graphs in Tableau.
-Built an interactive dashboard.
-Found key insights from the data.
-# Dashboard Features
-# The dashboard includes:
+![Netflix Dashboard](netflix-dashboard.png)
 
-Movies vs TV Shows
-Content by country
-Content by release year
-Genre distribution
-Ratings distribution
-Interactive filters
-# Key Analysis
-# The dashboard shows:
+---
 
-Distribution of Movies and TV Shows
-Top countries producing Netflix content
-Content growth over the years
-Most common genres
-Ratings of Netflix content
-# Key Insights
-Netflix has added more content over the years.
-Movies make up a larger part of the Netflix library than TV Shows.
-The United States has the highest number of titles.
-Drama and International Movies are some of the most common genres.
-Most Netflix content is rated TV-MA and TV-14.
-# Business Recommendations
-Continue adding popular movie genres.
-Increase content from more countries.
-Add more TV Shows to attract different viewers.
-Keep a good mix of content for different age groups.
-# Skills Demonstrated
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Data Visualization
-Tableau Dashboard
-Python (Pandas and NumPy)
-Finding business insights
-# Future Improvements
-# In the future, I would like to:
+## Project Objective
 
-Add more visualizations.
-Compare Netflix content with other streaming platforms.
-Build the same dashboard in Power BI.
-Add more advanced analysis using Python.
-# Folder Structure
-netflix-content-analysis/
-│
-├── Netflix Content Analysis Dashboard.twbx
-├── netflix_titles.csv
-├── netflix-dashboard.png
-└── README.md
-# Conclusion
-This project helped me improve my Python, Tableau, and data analysis skills. It also helped me learn how to clean data, create dashboards, and find useful insights from real-world data.
+The objective of this project is to analyze Netflix's content library and create an interactive dashboard that helps users understand content trends and supports data-driven decision making.
 
-# Dataset Source
-Netflix Titles Dataset from Kaggle:
+---
+
+## Business Questions
+
+- How has Netflix content changed over the years?
+- What is the distribution of Movies vs. TV Shows?
+- Which countries produce the most Netflix content?
+- What are the most common genres?
+- How has content production changed over time?
+- What are the most common content ratings?
+
+---
+
+## Dataset
+
+**Source:** Netflix Titles Dataset from Kaggle
 
 https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+The dataset includes:
+
+- Title
+- Type (Movie or TV Show)
+- Country
+- Release Year
+- Rating
+- Genre
+- Duration
+
+---
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Tableau
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+
+---
+
+## Analysis Process
+
+1. Loaded the dataset into Python.
+2. Checked for missing values and duplicate records.
+3. Cleaned and prepared the data.
+4. Performed exploratory data analysis.
+5. Created visualizations in Tableau.
+6. Built an interactive dashboard.
+7. Identified key business insights.
+
+---
+
+## Dashboard Features
+
+- Movies vs. TV Shows
+- Content by Country
+- Content by Release Year
+- Genre Distribution
+- Ratings Distribution
+- Interactive Filters
+
+---
+
+## Key Insights
+
+- Netflix has significantly expanded its content library over time.
+- Movies make up a larger portion of the catalog than TV Shows.
+- The United States contributes the highest number of Netflix titles.
+- Drama and International Movies are among the most common genres.
+- TV-MA and TV-14 are the most frequent content ratings.
+
+---
+
+## Business Recommendations
+
+- Continue investing in high-performing movie genres.
+- Expand content production in additional countries.
+- Increase the number of TV Shows to attract a broader audience.
+- Maintain a balanced content library across different audience age groups.
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Python (Pandas & NumPy)
+- Tableau Dashboard Development
+- Data Visualization
+- Business Insights
+- Data Storytelling
+
+---
+
+## Project Files
+
+```text
+netflix-content-analysis/
+├── README.md
+├── netflix-dashboard.png
+├── netflix_titles.csv
+└── Netflix Content Analysis Dashboard.twbx
+```
+
+---
+
+## Future Improvements
+
+- Add more interactive visualizations.
+- Compare Netflix with other streaming platforms.
+- Build the dashboard in Power BI.
+- Perform advanced statistical analysis using Python.
+
+---
+
+## Conclusion
+
+This project strengthened my skills in Python, Tableau, data cleaning, exploratory data analysis, and dashboard development. It demonstrates my ability to transform raw data into meaningful insights through effective data visualization and storytelling.
